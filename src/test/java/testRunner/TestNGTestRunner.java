@@ -11,6 +11,7 @@ import io.cucumber.testng.CucumberOptions;
 //plugin= {"html:target/cucumber.html", "json:target/cucumber.json",
 //"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 //"rerun:target/failed_scenarios.txt"}
+
 )
 public class TestNGTestRunner extends AbstractTestNGCucumberTests{
 
