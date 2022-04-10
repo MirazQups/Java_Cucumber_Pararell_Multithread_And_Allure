@@ -1,6 +1,3 @@
-@severity=normal
-@issue=1
-@tmsLink=1
 Feature: Verify Initial View Page
 
   Background:
