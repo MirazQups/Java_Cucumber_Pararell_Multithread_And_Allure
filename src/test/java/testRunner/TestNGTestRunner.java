@@ -9,8 +9,8 @@ import org.testng.annotations.Test;
 @Test
 @CucumberOptions(features="src/test/java/features",glue ="stepDefinitions"
 ,monochrome=true,
-//		tags ="@PlaceOrder or @OffersPage"
-plugin= {"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"}
+		tags ="@PlaceOrder",
+plugin= {"pretty","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"}
 // "html:target/cucumber.html", "json:target/cucumber.json",
 //"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 //"rerun:target/failed_scenarios.txt"}

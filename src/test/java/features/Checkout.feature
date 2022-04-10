@@ -23,3 +23,4 @@ Feature: Place the order for Products
       | Name  |
       | Tom 	|
       | Beet  |
+

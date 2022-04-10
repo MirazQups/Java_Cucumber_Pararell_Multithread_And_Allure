@@ -7,10 +7,7 @@ public class CheckoutPage {
 	public WebDriver driver;
 
 	public CheckoutPage(WebDriver driver)
-	{
-		this.driver = driver;
-		
-	}
+	{this.driver = driver;}
 	By cartBag = By.cssSelector("[alt='Cart']");
 	By checkOutButton = By.xpath("//button[contains(text(),'PROCEED TO CHECKOUT')]");
 	By promoBtn = By.cssSelector(".promoBtn");

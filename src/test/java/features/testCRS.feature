@@ -1,4 +1,6 @@
-
+@severity=normal
+@issue=1
+@tmsLink=1
 Feature: Verify Initial View Page
 
   Background:
@@ -6,7 +8,7 @@ Feature: Verify Initial View Page
     And user Enter password "SPOL_Support@2014"
     Then click on login button
 
-
+  @PlaceOrder
   Scenario: Title Should be Shown "All Budget" by Unit Manager Page
     Given click budget option from left menu
     When click on all budget
