@@ -1,6 +1,5 @@
 Feature: Place the order for Products
 
-  @PlaceOrder
   Scenario Outline: Search Experience for product search in both home and Offers page
 
     Given User is on GreenCart Landing page

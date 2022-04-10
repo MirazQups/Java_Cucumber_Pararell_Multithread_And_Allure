@@ -15,7 +15,8 @@ import io.cucumber.java.Scenario;
 import utils.TestContextSetup;
 
 public class Hooks {
-TestContextSetup testContextSetup;
+
+    TestContextSetup testContextSetup;
 	
 	public Hooks(TestContextSetup testContextSetup)
 	{
